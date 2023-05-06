@@ -474,7 +474,7 @@ def mpl_linestyle2pgfplots_linestyle(data, line_style, line=None):
         except AttributeError:
             # backwards-compatibility with matplotlib < 3.7.0
             dashOffset = line._us_dashOffset
-            dashSeq = line._us_dashSeq```
+            dashSeq = line._us_dashSeq
 
         lst = list()
         if dashSeq != default_dashSeq:
